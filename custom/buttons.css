@@ -1,0 +1,148 @@
+/* golden */
+.btn-golden {
+    display: inline-block;
+    outline: none;
+    font-family: inherit;
+    font-size: 1em;
+    box-sizing: border-box;
+    border: none;
+    border-radius: .3em;
+    height: 2.75em;
+    line-height: 2.5em;
+    text-transform: uppercase;
+    padding: 0 1em;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+    inset 0 -2px 5px 1px rgba(139,66,8,1),
+    inset 0 -1px 1px 3px rgba(250,227,133,1);
+    background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
+    border: 1px solid #a55d07;
+    color: rgb(120,50,5);
+    text-shadow: 0 2px 2px rgba(250, 227, 133, 1);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    background-size: 100% 100%;
+    background-position:center;
+}
+.btn-golden:focus,
+.btn-golden:hover {
+    background-size: 150% 150%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23),
+    inset 0 -2px 5px 1px #b17d10,
+    inset 0 -1px 1px 3px rgba(250,227,133,1);
+    border: 1px solid rgba(165,93,7,.6);
+    color: rgba(120,50,5,.8);
+}
+.btn-golden:active {
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+    inset 0 -2px 5px 1px #b17d10,
+    inset 0 -1px 1px 3px rgba(250,227,133,1);
+}
+/* golden */
+
+/* discover */
+
+.btn-discover {
+    background-color: #363636;
+    color: #fff; 
+    border: none; /*annulla effetto pop*/
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-discover:focus,
+.btn-discover:hover
+{
+    background-color: #363636;
+    color: #fff; 
+}
+
+/* discover */
+
+/* default */
+
+.btn-default{
+    background-color: #DBBE6F;
+    color: #fff;
+    border: none; /*annulla effetto pop*/
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-default:focus,
+.btn-default:hover
+{
+    background-color: #DBBE6F;
+    color: #fff;
+}
+
+/* default */
+
+/* default-circle */
+
+.btn-default-circle{
+    background-color: #DBBE6F;
+    color: #fff;
+    border: none; /*annulla effetto pop*/
+    text-align: center;
+    text-decoration: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.btn-default-circle:focus,
+.btn-default-circle:hover
+{
+    background-color: #DBBE6F;
+    color: #fff;
+}
+
+/* default-circle */
+
+/* gold */
+
+.btn-gold{
+    color: #fff;
+	background: linear-gradient(90deg, rgba(248,224,95,1) 0%, rgba(248,223,94,1) 25%, rgba(210,149,32,1) 75%);
+    border: none; /*annulla effetto pop*/
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-gold:focus,
+.btn-gold:hover
+{
+    color: #fff;
+	background: linear-gradient(90deg, rgba(248,224,95,1) 0%, rgba(248,223,94,1) 25%, rgba(210,149,32,1) 75%);
+} 
+
+/* gold */
+
+/* scroll */
+
+.txt-gold {
+    cursor: pointer;
+	color: #DBBE6F;
+}
+.scroll-down {
+    cursor: pointer;
+    transform: rotate(-90deg);
+    display: inline-block;
+    margin: -10px -6px 0 0;
+}
+
+.scroll-down:after {
+    cursor: pointer;
+    font-size: 35px !important;
+    line-height: 35px !important;
+    content: '>' !important;
+    color: transparent !important;
+	background-image: url('./media/arrow_gold.svg') !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background: -webkit-linear-gradient(#FAD643, #FABB00, #DD9D00, #CB8B00);
+}
+/* scroll */
